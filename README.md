@@ -18,5 +18,13 @@ Microsoft SQL Server(SSMS)
 -Python libraries 
 pip install pyodbc
 pip install tk
-A database named QuizGameDB (You can create it using the SQL file given below)
--
+
+Open SSMS. Run the SQL script from quizgamedb.sql to create the database and tables. (You can create it using the SQL file given below)
+-(https://github.com/sonil-dot/upskillcampus/blob/main/quizgamedb.sql)
+
+Clone the repo-
+git clone https://github.com/sonil-dot/upskillcampus.git
+cd upskillcampus
+
+-Run the project 
+python homepage.py
